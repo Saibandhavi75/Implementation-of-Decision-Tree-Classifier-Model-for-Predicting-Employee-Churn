@@ -8,10 +8,11 @@ To write a program to implement the Decision Tree Classifier Model for Predictin
 2. Anaconda – Python 3.7 Installation / Moodle-Code Runner
 
 ## Algorithm
-1. 
-2. 
-3. 
-4. 
+1.Import the required libraries.
+2.Upload and read the dataset.
+3.Check for any null values using the isnull() function.
+4.From sklearn.tree import DecisionTreeClassifier and use criterion as entropy.
+5.Find the accuracy of the model and predict the required values by importing the required module from sklearn.
 
 ## Program:
 ```
@@ -45,10 +46,26 @@ from sklearn import metrics
 accuracy = metrics.accuracy_score(y_test,y_pred)
 accuracy
 dt.predict([[0.5,0.8,9,260,6,0,1,2]])
+
 ```
 
 ## Output:
-![decision tree classifier model](sam.png)
+### Data Head:
+![output](https://github.com/Saibandhavi75/Implementation-of-Decision-Tree-Classifier-Model-for-Predicting-Employee-Churn/blob/main/111.png?raw=true)
+### Information:
+![output](https://github.com/Saibandhavi75/Implementation-of-Decision-Tree-Classifier-Model-for-Predicting-Employee-Churn/blob/main/222.png?raw=true)
+### Null Dataset:
+![output](https://github.com/Saibandhavi75/Implementation-of-Decision-Tree-Classifier-Model-for-Predicting-Employee-Churn/blob/main/333.png?raw=true)
+### Value_counts():
+![output](https://github.com/Saibandhavi75/Implementation-of-Decision-Tree-Classifier-Model-for-Predicting-Employee-Churn/blob/main/444.png?raw=true)
+### Data Head:
+![output](https://github.com/Saibandhavi75/Implementation-of-Decision-Tree-Classifier-Model-for-Predicting-Employee-Churn/blob/main/555.png?raw=true)
+### X.Head():
+![output](https://github.com/Saibandhavi75/Implementation-of-Decision-Tree-Classifier-Model-for-Predicting-Employee-Churn/blob/main/666.png?raw=true)
+### Accuracy:
+![output](https://github.com/Saibandhavi75/Implementation-of-Decision-Tree-Classifier-Model-for-Predicting-Employee-Churn/blob/main/777.png?raw=true)
+### Data Prediction:
+![output](https://github.com/Saibandhavi75/Implementation-of-Decision-Tree-Classifier-Model-for-Predicting-Employee-Churn/blob/main/888.png?raw=true)
 
 
 ## Result:
